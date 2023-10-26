@@ -75,5 +75,5 @@ https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/5eb9a289-
 
 For both assignments, the YOLOv8 model was used for object detection in the video frames, and SORT (Simple Online and Realtime Tracking) was employed for tracking the detected objects. These solutions combined object detection with tracking to address the tracking requirements of the assignments.
 
-While the second assignment faced challenges in predicting clay target trajectories, the overall approach incorporated the use of computer vision and machine learning techniques to address the given problems.
+While the second assignment faced challenges in predicting clay target trajectories when camera itself was in motion, the overall approach incorporated the use of computer vision and machine learning techniques to address the given problems.
 
