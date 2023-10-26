@@ -24,12 +24,14 @@ classnames = [
 def get_name(inp):
     return inp.split('/')[-1].split('.')[0]
 
-video_path = "./video/video4.mp4"
+video_path = "./video/video8.mp4"
 
 
 model_path = "../YOLO-Weights/yolov8x.pt"
 if os.path.exists(f"{get_name(model_path)}_{get_name(video_path)}.mp4"):
     output_video_name = f"{get_name(model_path)}_{get_name(video_path)}v2.mp4"
+else:
+    output_video_name = f"{get_name(model_path)}_{get_name(video_path)}.mp4"
 model = YOLO(model_path)
 
 tracker = Sort(max_age=20, min_hits=1, iou_threshold=0.3)
@@ -45,7 +47,8 @@ while True:
     success, image = cap.read()
     if not success:
         break
-
+    # 2 contrast 10 brightness
+    image = cv2.addWeighted( image, 2, image, 0, 10)
     results = model(image, stream=True)
     detections = np.empty((0, 5))
     
@@ -74,6 +77,9 @@ while True:
         cvzone.cornerRect(image, (x1, y1, w, h), l=9, colorR=(255, 0, 0))
     
     # Write the frame to the output video
+    # cv2.imshow("Result", image)
+    # if cv2.waitKey(1) == 13:
+    #     break
     out.write(image)
 
 cv2.destroyAllWindows()
