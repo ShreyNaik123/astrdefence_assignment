@@ -50,6 +50,16 @@ https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/ff3e300e-
 
 https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/cb42d30e-b667-4051-aa17-e2a6be7d257b
 
+# Implemented a trajectory prediction algorithm for the clay targets, but it works only when the camera is stationary and not when camera starts moving
+
+![Screenshot 2023-10-26 214351](https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/44e09d3f-5e81-4c71-b416-1f482636b3bb)
+
+![image](https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/1e9438ad-abcd-4352-9eb2-55cbd6851bad)
+
+
+![image](https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/8d540675-1cd1-47d3-b26f-cff195d25504)
+
+![image](https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/f672051f-2f24-43f4-93d1-ac9fcb133c28)
 
 
 
