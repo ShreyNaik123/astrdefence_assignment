@@ -13,7 +13,7 @@ https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/06d36461-
 
 https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/8e4cde9f-1324-4ddf-bde0-7807cda91e93
 
-# I was able to get it to detect the bird where it seemed like the bird blended with the tree by boosting the contrast a bit and upscaling the video
+Was able to get it to detect the bird where it seemed like the bird blended with the tree by boosting the contrast a bit and upscaling the video
 
 https://github.com/ShreyNaik123/astrdefence_assignment/assets/61283238/5b551ebb-884f-40a4-b7da-aac29177b508
 
